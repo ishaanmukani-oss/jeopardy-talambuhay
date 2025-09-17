@@ -10,7 +10,7 @@ const pastQuestions: Question[] = sortQuestions([
         answer: 'Illinois',
     },
     {
-        points: 200,
+        points: 500,
         question:
             'Which country\'s flag is this?',
         imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
