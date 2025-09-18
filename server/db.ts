@@ -6,8 +6,8 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'Where was the first organized game of baseball played?', 
+        answer: 'Hoboken, New Jersey',
     },
     {
         points: 500,
@@ -19,13 +19,13 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What was the original name for Dunkin',
+        answer: 'Open Kettle',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What country is the birthplace of Chess',
+        answer: 'India',
     }
 ]);
 
@@ -68,21 +68,43 @@ const futureQuestions: Question[] = sortQuestions([
         imgSrc:
             "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
         answer: 'Italy',
+    },
+    {
+        points: 100,
+        question:
+            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+        imgSrc:
+            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+        answer: 'Italy',
+    },
+    { points: 100,
+        question:
+            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+        imgSrc:
+            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+        answer: 'Italy',
+    },
+    { points: 100,
+        question:
+            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+        imgSrc:
+            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+        answer: 'Italy',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'Ishaans Past',
+        title: "Ishaans Past",
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: "Ishaan's Present",
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: "My Future",
         questions: futureQuestions
     }
 ];
