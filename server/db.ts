@@ -83,7 +83,7 @@ const categories = [
         questions: presentQuestions
     },
     {
-        title: "My Future",
+        title: "Ishaan's Future",
         questions: futureQuestions
     }
 ];
